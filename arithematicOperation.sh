@@ -8,3 +8,5 @@ operation2=$(( $a * $b + $c ))
 echo "a*b+c=$operation2"
 operation3=$(( $c + $a / $b ))
 echo "c+a/b=$operation3"
+operation4=$(( $a % $b + $c ))
+echo "a%b+c=$operation4"
