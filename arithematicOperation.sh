@@ -22,5 +22,14 @@ resultArr[(count++)]=${result["result3"]}
 resultArr[(count++)]=${result["result4"]}
 
 
-echo "dictionar----------> ${resultArr[@]}"
+echo "dictionar----------> ${result[@]}"
+echo "ARRAY----------> ${resultArr[@]}"
+
+for desc in ${resultArr[@]}
+	do 
+		echo "$desc"
+	done | sort -nr
+
+
+
 
